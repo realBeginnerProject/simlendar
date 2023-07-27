@@ -1,0 +1,49 @@
+:root {
+    --pos-display: 1028px;
+    --desktop-display: 1080px;
+}
+
+html {}
+
+body {
+    margin: 0px;
+}
+
+.navbar {
+    height: 40px;
+    padding: 0px 10px;
+    width: var(--pos-display);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_logo {
+    padding: 0px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+li {
+    margin: 20px;
+    padding: 0px;
+}
+
+
+
+.calendar {
+    width: var(--pos-display);
+    height: 100vh;
+}
