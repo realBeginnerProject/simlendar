@@ -1,8 +1,3 @@
-:root {
-    --pos-display: 1028px;
-    --desktop-display: 1080px;
-}
-
 html {}
 
 body {
@@ -11,15 +6,13 @@ body {
 
 .navbar {
     height: 40px;
-    padding: 0px 10px;
-    width: var(--pos-display);
+    padding: 0px 10px 0px 10px;
+    width: 100vw-20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
+    border-bottom: solid 0.5px rgb(219, 219, 219);
+    font-size: 1em;
 
-.navbar_logo {
-    padding: 0px;
 }
 
 img {
@@ -28,22 +21,42 @@ img {
     margin-top: 4px;
 }
 
-ul {
+.menu {
     display: flex;
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     justify-content: space-between;
+    margin-right: auto;
 }
 
 li {
-    margin: 20px;
+    margin-left: 40px;
     padding: 0px;
 }
 
+.login {
+    height: 1.5em;
+    width: 4em;
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgb(54, 104, 255);
+}
 
+
+div>a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
 
 .calendar {
-    width: var(--pos-display);
-    height: 100vh;
+    width: 100vw;
+    height: 100vw;
+    font-size: 10em;
+    text-align: center;
+
 }
